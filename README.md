@@ -31,6 +31,8 @@ aviation-rag/
 
 ### 1. 安装依赖
 
+**Python ≥ 3.10 版本**（开发环境为 Python 3.10.20）
+
 ```bash
 pip install -r requirements.txt
 ```
