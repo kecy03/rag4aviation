@@ -70,8 +70,6 @@ DASHSCOPE_API_KEY=sk-ws-你的dashscope密钥
 
 其余配置项有默认值，一般无需修改。
 
-> **注意**：`.env` 已被 `.gitignore` 排除，不会提交到 GitHub。不要将密钥硬编码到 `.py` 源文件中。
-
 ### 3. 准备数据
 
 将航空资料放入对应子目录，支持 **PDF / DOCX / HTML / 图片** 四种格式：
