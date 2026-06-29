@@ -175,3 +175,7 @@ pytest evaluation/test_e2e.py -v
 | 重排序 | BAAI/bge-reranker-v2-m3 |
 | 中文分词 | jieba |
 | 评估 | LLM-as-Judge (1-5 Likert) |
+
+## 📸 效果展示
+
+![demo](fig/demo.png)
