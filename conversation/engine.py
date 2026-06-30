@@ -20,7 +20,7 @@ class MultiTurnRAGEngine:
         else:
             rewritten = self._rewriter.rewrite(user_query)
 
-        result = self._generator.generate(user_query)
+        result = self._generator.generate(rewritten)
         result["rewritten_query"] = rewritten
 
         self._history.add_turn(user_query, result["answer"])
